@@ -15,7 +15,7 @@ José Román Pinelo Escobar
 
 ### Explicación
 
-En esta página se muestran 4 tarjetas sencillas de presentación y están hechas con React.
+En esta página se muestran 4 tarjetas sencillas de presentación y están hechas con React. Para crear el proyecto se utilizó la herramienta Vite.js.
 
 ![imagen1](https://user-images.githubusercontent.com/71656431/192024091-9491156a-e763-46ce-9b54-1b99dccad555.png)
 
