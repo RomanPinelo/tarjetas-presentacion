@@ -1,0 +1,26 @@
+.tarjeta {
+  background-color: #b6b6b6;
+  width: 600px;
+  height: 300px;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.tarjeta img {
+  width: 30%;
+  height: auto;
+}
+
+.tarjeta .info h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.tarjeta .info p {
+  width: 90%;
+  margin: 0 auto;
+  text-align: justify;
+}
