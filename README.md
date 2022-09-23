@@ -35,8 +35,8 @@ Finalmente, a partir del array, se generan dichas tarjetas con el método map().
 ![imagen4](https://user-images.githubusercontent.com/71656431/192024087-0dadfc59-a5c1-4a20-984a-fa3f2660214c.png)
 
 
-El principal reto fue que cada testimonio tiene una parte especifica resaltada en negritas. En un principio en el texto del testimonio se puso como tal esa parte entre las etiquetas HTML <strong> </strong >, pero aparecía tal cual y no resaltaba el texto.
-Lo que se hizo fue dividir el texto en partes, y cada parte guardarla en un array. En el componente se pusieron las etiquetas HTML <strong> </ strong > y cada parte del testimonio en su lugar (antes, dentro y después de las etiquetas). Si la parte resaltada esta al inicio o final, se puso un string vacío (“”).
+El principal reto fue que cada testimonio tiene una parte especifica resaltada en negritas. En un principio en el texto del testimonio se puso como tal esa parte entre las etiquetas HTML < strong > </ strong >, pero aparecía tal cual y no resaltaba el texto.
+Lo que se hizo fue dividir el texto en partes, y cada parte guardarla en un array. En el componente se pusieron las etiquetas HTML < strong > </ strong > y cada parte del testimonio en su lugar (antes, dentro y después de las etiquetas). Si la parte resaltada esta al inicio o final, se puso un string vacío (“”).
 De esta forma se resalta solo lo que cada usuario desee.
 
 ![imagen5](https://user-images.githubusercontent.com/71656431/192024085-a1b4329b-519f-4920-9ba9-6e7593b4ca59.png)
